@@ -1,35 +1,61 @@
 body {
-    color: rgb(154, 154, 196);
-    background-image: url(/images/crFlagBG.jpg);
-
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 1920px 2000px;
-    background-repeat: no-repeat;
-
+    color: rgb(1, 1, 105);
     padding-top: 10px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    background-image: url(/images/crFlagBG.jpg), url(/images/chorro450.jpg);
+    background-attachment: fixed;
+    background-position: left, right;
+    background-size: 350px 1000px, 75%;
+    background-repeat: no-repeat;
+    
+    
 
 }
+.bigFont{
+    font-size: 50px;
+}
 
+#perfectImageSize{
+    max-width: 600px; 
+}
+
+#extraPad{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 img{
-   max-width: 600px; 
-   margin-left: 31% ;
+   
+   margin-left: 33%;
+   position: right;
 }
 
 p{
-    color: white;
-    margin-left: 27%;
-    margin-right: 25%;
-
-    font-size: large;
+    color: rgb(1, 7, 78)60, 153, 153);
+    margin-left: 410px;
+    font-size: 25px;
     max-width: 800px;
 }
 
+h2{
+    margin-left: 33%;
+}
+
+ul{
+    padding: 30px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    margin-left: 33%;
+    font-size: 25px;
+}
+
 h1{
-    color: white;
+    color: rgb(1, 1, 105);
     font-size: 35px;
-    margin-left: 40%; 
+    margin-left: 33%; 
     margin-right: auto;  
     max-width: 800px;
+}
+
+.setwidth{
+    max-width:
 }
